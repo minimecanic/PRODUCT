@@ -7,11 +7,112 @@ color: #000000;
 background-size: cover;
 background-repeat: no-repeat;
 }
-h1{
-font-size:55px;
-color:orange;
-text-align:center;  
-}
 h2{
+padding-bottom:100px;
+padding-left:40%;
+width:320px;
+height:330px;
+}
+footer{
+border: none;
+color:black;
+text-align: right;
+padding:1px;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-right: 25px;
+font-size:11px;
+background-color:#bebebe;
+}
+ul{
+list-style-type: none;
+margin:10px;
+overflow:hidden;
+background-color:#3A3A3AFF;
 text-align:center;
+border:7px solid black ;
+padding:5px;
+}
+li{
+float:right;
+padding-right:35px;
+}
+ li a{
+border:none;
+text-align: center;
+display:block;
+text-decoration:underline;
+color:orange;
+font-size: 35px;
+padding: 7px 8px;
+}
+li a:hover:not(.active){
+background-color:gray;
+padding:none;
+}
+.active{
+background-color:black;
+}
+button{
+transform:100px;
+}
+img{
+padding:none;
+}
+#div1{
+border-style:solid white;
+border-width: 100px;
+background-color:black;
+padding:none;
+}
+#img{
+padding-bottom: 30px;
+}
+#img02{
+float:right;
+height:33px ;
+width: 33px;
+}
+#arduiscr{
+height:100px;
+width:125px;
+}
+#table1{
+border: solid white 2px;
+color: white;
+width: 100%
+}
+#stihl{
+padding-right:100px;
+padding-left: 40px;
+}
+#img1{
+padding-left:100px;
+padding-right: 100px;
+}
+#echo{
+padding-left: 100px;
+padding-right: 10px;
+}
+#face{
+padding-left: 25px;
+padding-right: 25px;
+}
+#twit{
+padding-left: 25px;
+padding-right:25px;
+}
+#blocnote{
+float: right;
+width: 30%;
+height: 30%;
+border:2px solid orange;
+background-color: white;
+color:black;
+font-size: 20px;
+padding: none;
+}
+#menu{
+padding left:none;
+ padding rihght:100px;
 }
